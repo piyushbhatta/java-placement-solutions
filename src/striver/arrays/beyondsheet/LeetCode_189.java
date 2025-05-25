@@ -1,4 +1,4 @@
-package LeetCodeEasyArray;
+package striver.arrays.beyondsheet;
 //Q.189) Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 //https://leetcode.com/problems/rotate-array/description/
 

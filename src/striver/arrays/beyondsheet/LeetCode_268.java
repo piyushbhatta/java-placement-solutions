@@ -1,4 +1,4 @@
-package LeetCodeEasyArray;
+package striver.arrays.beyondsheet;
 
 import java.util.HashSet;
 

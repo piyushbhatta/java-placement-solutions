@@ -1,4 +1,4 @@
-package LeetCodeEasyArray;
+package striver.arrays.beyondsheet;
 //Remove Duplicates from Sorted Array
 //https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 public class LeetCode_26 {
