@@ -1,4 +1,4 @@
-package striver.arrays.beyondsheet;
+package ArrayComeback.beyondsheet;
 
 import java.util.ArrayList;
 import java.util.Collections;

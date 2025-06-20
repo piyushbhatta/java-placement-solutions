@@ -1,4 +1,4 @@
-package striver.arrays.beyondsheet;
+package ArrayComeback.beyondsheet;
 //Given a binary array nums, return the maximum number of consecutive 1's in the array.
 //https://leetcode.com/problems/max-consecutive-ones/description/
 public class LeetCode_485 {
