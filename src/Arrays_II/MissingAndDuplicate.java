@@ -38,8 +38,8 @@ public class MissingAndDuplicate {
         long Sn=(n*(n+1))/2;
         long S2n=(n*(n+1)*(2*n+1))/6;
         for (int i=0;i<n;i++){
-            S= (S+(arr[i]));
-            S2=S2+(arr[i]*arr[i]);
+            S= (S+((long)arr[i]));
+            S2=S2+((long)arr[i]*(long)arr[i]);
         }
         long val1=S-Sn;
         long val2=S2-S2n;
