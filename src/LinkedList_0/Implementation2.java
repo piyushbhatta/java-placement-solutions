@@ -106,17 +106,22 @@ public class Implementation2 {
         List.insertAtIndex(5,10);//0-> 3-> 2-> 4 ->6 ->10
         List.insertAtIndex(2,1);//0-> 3-> 1 ->2-> 4 ->6 ->10
         List.insertAtIndex(6,9);//0-> 3-> 1 ->2-> 4 ->6 ->9 ->10
-        List.display();
-        System.out.println(List.head.Data);
-
-        System.out.println(List.get(List.size));
-
         List.delete(0);
         List.display();
-        System.out.println(List.head.Data);
+        System.out.println(deleteFromEnd(List.head,2));;
 
-        List.delete(List.size-1);
-        List.display();
-        System.out.println(List.tail.Data);
+    }
+    public static int deleteFromEnd(Node head, int n){
+        int size=0;
+        Node temp = head;
+        while(temp!=null){
+            size++;
+            temp=temp.next;
+        }
+        temp=head;
+        for(int i=1;i<=size-n;i++){
+           temp=temp.next;
+        }
+        return temp.Data;
     }
 }
