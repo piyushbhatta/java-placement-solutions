@@ -1,4 +1,4 @@
-package LinkedList_I;
+package Learning_LinkedList_II;
 
 public class LeetCode141_LinkedListCycleII {
     public static void main(String[] args) {

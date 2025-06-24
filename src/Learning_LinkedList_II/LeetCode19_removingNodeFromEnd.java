@@ -1,6 +1,6 @@
-package LinkedList_I;
+package Learning_LinkedList_II;
 
-public class Q1_getNodeFromLast {
+public class LeetCode19_removingNodeFromEnd {
 
     public static void main(String[] args) {
         Node Head = new Node(3);
@@ -15,18 +15,25 @@ public class Q1_getNodeFromLast {
         b.next=c;
         c.next=d;
         d.next=tail;
-        System.out.println(nodeFromEnd(Head,6).val);
+        Display.display(Head);
+        Head=deleteFromEnd(Head,6);
+        Display.display(Head);
     }
-    public static Node nodeFromEnd(Node head, int n){
-        Node slow=head;
-        Node fast=head;
+    public static Node deleteFromEnd(Node head, int n){
+        Node slow = head;
+        Node fast = head;
         for(int i=1;i<=n;i++){
             fast=fast.next;
         }
-        while(fast!=null){
+        if(fast==null){
+            head=head.next;
+            return head;
+        }
+        while(fast.next!=null){
             slow=slow.next;
             fast=fast.next;
         }
-        return slow;
+        slow.next=slow.next.next;
+        return head;
     }
 }

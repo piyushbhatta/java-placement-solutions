@@ -1,4 +1,4 @@
-package LinkedList_I;
+package Learning_LinkedList_II;
 
 public class Display {
     public static void display(Node head){

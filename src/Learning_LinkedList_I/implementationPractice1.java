@@ -1,4 +1,4 @@
-package LinkedList_0;
+package Learning_LinkedList_I;
 
 public class implementationPractice1 {
     public static class Node{
