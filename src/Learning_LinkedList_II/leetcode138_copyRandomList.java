@@ -17,7 +17,7 @@ public class leetcode138_copyRandomList {
     public static void main(String[] args) {
 
     }
-    public static Node copyRandomList(Node head) {
+    public static Node copyRandomListDeepCopy(Node head) {
         if (head == null) return null;
 
         HashMap<Node, Node> map = new HashMap<>();

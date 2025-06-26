@@ -16,7 +16,7 @@ public class Leetcode234_isPalindrome {
         }
         return previous;
     }
-    public static boolean isPalindrome(Node head) {
+    public static boolean isPalindromeOrNot(Node head) {
         Node slow = head;
         Node fast = head;
         while (fast.next != null && fast.next.next != null) {
