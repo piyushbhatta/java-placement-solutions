@@ -8,9 +8,9 @@ public class reverseLinkedList {
         ListNode c = new ListNode(4);
         ListNode tail = new ListNode(5);
         head.next=a; a.next=b; b.next=c; c.next=tail;
-        ListDisplay.ListDisplay(head);
+        ListNode.ListDisplay(head);
         ListNode revhead =reverse(head);
-        ListDisplay.ListDisplay(revhead);
+        ListNode.ListDisplay(revhead);
     }
     public static ListNode reverse(ListNode head){
         ListNode prev = null;
