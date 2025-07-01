@@ -1,6 +1,6 @@
 package mathsForDSA;
 import java.util.Scanner;
-public class oddEven {
+public class Q3oddEven {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
