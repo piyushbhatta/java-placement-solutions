@@ -2,6 +2,8 @@ package mathsForDSA;
 
 public class Q12countNumberOfSetBit {
     public static void main(String[] args) {
+        int n = ~(10&7);
+        System.out.println(n);
         System.out.println(count2(15));
     }
     public static int count(int n){
