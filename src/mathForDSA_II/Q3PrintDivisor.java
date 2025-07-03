@@ -1,8 +1,8 @@
-package bitwise.striver.questions;
+package mathForDSA_II;
 
 import java.util.TreeSet;
 
-public class Q11PrintDivisor {
+public class Q3PrintDivisor {
     public static void main(String[] args) {
 
     }

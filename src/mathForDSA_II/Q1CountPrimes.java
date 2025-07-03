@@ -1,9 +1,9 @@
-package bitwise.striver.questions;
+package mathForDSA_II;
 
 import java.util.Arrays;
 
 /// Sieve of Eratosthenes
-public class Q9CountPrimes {
+public class Q1CountPrimes {
     public static void main(String[] args) {
         System.out.println(countPrimes(100));
     }

@@ -1,9 +1,8 @@
-package bitwise.striver.questions;
+package mathForDSA_II;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class Q10PrimeFactorOfNumber {
+public class Q2PrimeFactorOfNumber {
     public static void main(String[] args) {
         System.out.println(primeFactor(24));
     }
