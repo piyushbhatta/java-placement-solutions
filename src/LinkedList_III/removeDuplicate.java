@@ -1,4 +1,4 @@
-package LinkedList_IV;
+package LinkedList_III;
 
 public class removeDuplicate {
 }
