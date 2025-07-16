@@ -6,7 +6,7 @@ This repository contains a curated collection of **Java coding problems** common
 
 ## 📌 What's Inside?
 
-- ✅ 180+ Java problems from popular placement guides (e.g., Striver's DSA Sheet)
+- ✅ 250+ Java problems from popular placement guides (e.g., Striver's DSA Sheet)
 - 📁 Organized topic-wise for easy navigation
 - 🧠 Clean and readable Java solutions with comments
 - 📝 Notes and logic explained for tricky problems
