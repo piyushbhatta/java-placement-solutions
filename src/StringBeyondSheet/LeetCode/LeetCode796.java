@@ -1,6 +1,6 @@
-package String_I;
+package StringBeyondSheet.LeetCode;
 
-public class LeetCode_796 {
+public class LeetCode796 {
     public static void main(String[] args) {
 
     }

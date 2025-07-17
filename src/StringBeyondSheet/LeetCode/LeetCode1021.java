@@ -1,6 +1,6 @@
-package String_I;
+package StringBeyondSheet.LeetCode;
 
-public class LeetCode_1021 {
+public class LeetCode1021 {
     public static void main(String[] args) {
         String s="(()())(())";
         System.out.println(removeOuterParentheses(s));

@@ -1,0 +1,28 @@
+
+
+int x = 5;
+x is a primitive variable.
+It holds the actual value 5.
+The value is stored directly in memory (usually on the stack).
+Stack:
+x → 5
+
+String s = "hello";
+s is a reference variable.
+It does not hold the string itself, it holds a reference (memory address) to a String object.
+The actual String object is stored in the heap.
+Stack:
+s ──► (reference)
+Heap:
+[String object "hello"]
+
+| Feature               | **Primitive Variable**                         | **Reference Variable**                             |
+| --------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| **Definition**        | Stores actual data value                       | Stores the memory address (reference) of an object |
+| **Data Type**         | `int`, `char`, `float`, `boolean`, etc.        | `String`, arrays, objects, custom classes, etc.    |
+| **Stored in**         | Stack memory                                   | Reference in stack, object in heap                 |
+| **Memory Size**       | Fixed (e.g., `int` = 4 bytes)                  | Depends on the object                              |
+| **Default Value**     | e.g., `int` = 0, `boolean` = false             | `null`                                             |
+| **Can call methods?** | ❌ No (except when boxed)                      | ✅ Yes (can access methods of the object)          |
+| **Mutable/Immutable** | Immutable (value can't be changed through ref) | Depends on object (e.g., `String` is immutable)    |
+| **Examples**          | `int x = 10;`                                  | `String s = "hello";`, `int[] arr = new int[5];`   |
