@@ -1,6 +1,6 @@
 package StringLoveBabbar;
 
-public class GFG2_ifPalindrome {
+public class ifPalindrome {
     public static void main(String[] args) {
         String s="abcdba";
         System.out.println(checkPalindrome(s));

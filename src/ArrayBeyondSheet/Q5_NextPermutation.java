@@ -1,5 +1,6 @@
 package ArrayBeyondSheet;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Q5_NextPermutation {
